@@ -25,7 +25,7 @@ if (Alive == true)
 }
 else
 {
-    console.log("you passed away");
+    console.log("you passed  away");
 }
 const array = [mrr,ff,$,_,UserName,Age,Alive];
 console.log(array);

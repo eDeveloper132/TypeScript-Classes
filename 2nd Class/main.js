@@ -1,29 +1,28 @@
-"use strict";
 var message = "3rd Class";
 var message = "toto";
 var mrr;
 mrr = "maani";
 //var ko agar hum jo naam dety hen usi naam ka dubara bhi bana sakty hen and variable banany ky baad initialize ker sakty hen baad mein
-let governorit = "iu";
+var governorit = "iu";
 governorit = "io";
-let ff;
+var ff;
 ff = "it";
 //let ko same name sy dubara nahi banasakty and variable banany ky baad initialize ker sakty hen baad mein
-const goversindh = "it";
+var goversindh = "it";
 //const mein yeh sabiqa donu cheezein allow nahi hen
-let $ = "123";
+var $ = "123";
 // console.log($);
-const _ = 123;
+var _ = 123;
 // console.log(_);
 // Strong Typing
-let UserName = "Imran";
-let Age = 18;
-let Alive = true;
+var UserName = "Imran";
+var Age = 18;
+var Alive = true;
 if (Alive == true) {
     console.log("Welcome");
 }
 else {
-    console.log("you passed away");
+    console.log("you passed  away");
 }
-const array = [mrr, ff, $, _, UserName, Age, Alive];
+var array = [mrr, ff, $, _, UserName, Age, Alive];
 console.log(array);
