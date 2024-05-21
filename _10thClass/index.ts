@@ -27,6 +27,7 @@ type Student = {
     name: string,
     age: number
 }
+// Bye
 
 let student : Student = {
     name: "Rafay",
