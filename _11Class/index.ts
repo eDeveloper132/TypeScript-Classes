@@ -84,3 +84,16 @@ console.log(students);
 // How to update custom values in Array
 students.splice(0,1,object)
 // Means that it updated by 0 index and length is 1 means 1 item should be updated
+
+// Tuple
+// Tuple is an array that has a fixed number of elements
+type PersonInfo = [string , number , boolean]
+let Information : PersonInfo = ["Ali" , 22 , true]
+Information.push("Ali")
+console.log(Information)
+                        // Tuple is for fixed data type that configure placed values
+                        // If you don't want to push than secure like this
+type PersonalInfo = readonly [string , number , boolean]
+let Informatioo : PersonalInfo = ["Ali" , 22 , true]
+console.log(Informatioo)
+// It does not allow you to push it
