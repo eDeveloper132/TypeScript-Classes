@@ -62,4 +62,4 @@
 // if (a === "string") {
 //     console.log(a.toUpperCase);
 // }
-// console.log((a as string).toUpperCase);
+// console.log((a as string).toUpperCase)
